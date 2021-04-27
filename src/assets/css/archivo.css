@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #4CA1AF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C4E0E5, #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/*ESTILOS PARA FORMULARIO INICIAL*/
+.form_titulo{
+    color: coral;
+}
+
+.form_img1{
+    width: 70%;
+    height: 50%;
+}
+
+.form_img2{
+    width: 70%;
+    height: 70%;
+}
+
+
+/*ESTILOS PARA FORMULARIO REGISTRO*/
+.row{
+    background: rgb(64, 125, 136);
+}
+.col-lg-12{
+    color: #ffffff;
+    text-align: center;
+}
+.form-register{
+    width: 400px;
+    background: rgb(64, 125, 136);
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-family: 'Times New Roman';
+    color: white;
+}
+.form-register h4{
+    font-size: 22px;
+    margin-bottom: 5px; 
+    text-align: center;   
+}
+.controls{
+    width: 100%;
+    background: rgb(223, 237, 240);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #1f53c5;
+    font-family: 'Times New Roman';
+    font-size: 18px;    
+}
+.form-register p{
+    height: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+.form-div{
+    margin-bottom: 16px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Times New Roman';
+}
+.form-register .checkbox{
+    margin-bottom: 10px;
+    font-family: 'Times New Roman';
+    align-items: center;
+    font-size: 18px;
+}
+.form-register .botons{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    border-radius: initial;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+.select{
+    width: 100%;
+    background: #4c5a68;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'Times New Roman';
+    font-size: 18px;    
+}
+
+/*ESTILOS PARA FORMULARIO DE IMAGENES*/
+.slider{
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 60px;
+}
+.slider ul{
+    padding: 0;
+    display: flex;
+    width: 400%;
+    animation: cambio; 
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+.slider ul:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    width: 100%;
+    height: 500px;
+}
+@keyframes cambio{
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+    
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+/*MENU PRINCIPAL*/
+.menu-principal{
+    list-style: none;
+    padding: 0;
+    background: #092327;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+.menu-principal li a{
+    text-decoration: nome;
+    color: white;
+    padding: 20px;
+    display: block;
+    border: 1px solid #a4b4d4;   
+}
+.menu-principal li{
+    display: inline-block;
+    text-align: center;
+}
+.menu-principal li a:hover{
+    background: cornflowerblue;
+}
+.form-img-logo{
+    width: 5%;
+    height: 5%;
+}
+.form-div-img{
+    list-style: none;
+    padding: 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}

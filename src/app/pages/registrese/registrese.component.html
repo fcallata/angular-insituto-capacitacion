@@ -1,0 +1,45 @@
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="navbar-brand">FORMULARIO DE REGISTRO</h1>
+        <div>El Formulario tendrá el fin de que el alumno se registre y reciba
+             información del Instituto
+        </div>
+    </div>
+</div>
+<section class="form-register">
+    <h4>Datos solicitados</h4>
+    <input class="controls" type="text" name="apellido" id="apellido" placeholder="APELLIDO" autocomplete="off">
+    <input class="controls" type="text" name="nombre" id="nombre" placeholder="NOMBRE" autocomplete="off">
+    <input class="controls" type="text" name="celular" id="celular" placeholder="CELULAR" autocomplete="off">
+    <select name="selectCompania" class="controls">
+        <option value="op1" selected>EJESA</option>
+        <option value="op2">GASNOR</option>
+        <option value="op3">AGUA DE LOS ANDES</option>
+    </select>
+    <input class="controls" type="email" name="email" id="email" placeholder="EMAIL" autocomplete="off">
+    
+    <p>Seleccione el sexo</p>
+    <div class="form-div">
+        <input type="radio" id="masculino" name="drone" value="masculino" class="form_check" checked>
+        <label for="masculino">MASCULINO</label>
+        <input type="radio" id="femenino" name="drone" value="femenino" class="form_check" >
+        <label for="femenino">FEMENINO</label>
+    </div>
+
+    <p>Fecha de nacimiento</p>
+    <div class="formulario__grupo-input">
+        <input type="date" class="controls" name="fechanac" id="fechanac">
+    </div>
+
+    <p>Dispositivo que dispone</p>
+    <div class="form-div">
+        <input type="checkbox" id="pc" name="drone" value="pc">
+        <label for="pc">PC</label>
+        <input type="checkbox" id="notebook" name="drone" value="notebook" >
+        <label for="notebook">Notebook</label>
+        <input type="checkbox" id="celularr" name="drone" value="celularr">
+        <label for="celular">Celular</label>
+    </div>
+    
+    <input class="botons" type="submit" value="Registrar">
+</section>
